@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首页</title>
+    <link rel="stylesheet" href="./font/iconfont.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="icon" href="./bitbug_favicon.ico" />
+
+    <script src="./js/index.js"></script>
+  </head>
+  <body>
+    <div class="back"><i class="iconfont icon">&#xe601;</i></div>
+    <!-- 模态框 -->
+    <div class="modal-box">
+      <div class="wrong">×</div>
+      <div class="title">
+        <h2><span>注册</span></h2>
+
+        <h2><span>登录</span></h2>
+      </div>
+
+      <div class="container-box">
+        <div class="register-container content">
+          <div class="content-input">
+            <input
+              type="text"
+              placeholder="Username"
+              class="username register0" autocomplete="new-password
+            />
+
+            <i class="iconfont icon"></i>
+            <p></p>
+          </div>
+          <div class="content-input">
+            <input type="email" placeholder="Email" class="email register0" autocomplete="new-password />
+            <i class="iconfont icon"></i>
+            <p></p>
+          </div>
+          <div class="content-input">
+            <input
+              type="text"
+              placeholder="Password"
+              class="password register0" autocomplete="new-password
+            />
+            <i class="iconfont icon"></i>
+            <p></p>
+          </div>
+          <div class="content-input">
+            <input
+              type="text"
+              placeholder="Confirm Password"
+              class="register0"
+              id="Confirm-Password"
+            />
+            <i class="iconfont icon"></i>
+            <p></p>
+          </div>
+          <button id="register">注册</button>
+        </div>
+        <div class="login-container content">
+          <div class="content-input">
+            <input type="text" placeholder="Username" class="username login0" />
+            <i class="iconfont icon"></i>
+            <p></p>
+          </div>
+          <div class="content-input">
+            <input type="email" placeholder="Email" class="email login0" />
+            <i class="iconfont icon"></i>
+            <p></p>
+          </div>
+          <div class="content-input">
+            <input
+              type="password"
+              placeholder="Password"
+              class="password login0"
+            />
+            <i class="iconfont icon"></i>
+            <p></p>
+          </div>
+          <button id="login">登录</button>
+        </div>
+      </div>
+    </div>
+    <!-- 导航 -->
+    <nav>
+      <div class="nav-main">
+        <div class="logo">
+          <img src="./images/OIP-C (1).png" />
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li><a href="./index.html">首页</a></li>
+            <li>
+              <a href="./menu.html" class="list01">菜谱</a>
+              <ul class="list">
+                <li><a href="./list.html">东北美食</a></li>
+                <li><a href="#">河北美食</a></li>
+                <li><a href="#">四川美食</a></li>
+              </ul>
+            </li>
+            <li><a href="./shopping.html">商城</a></li>
+            <li><a href="./node.html">笔记</a></li>
+            <li><a href="./contact us.html">联系我们</a></li>
+            <li>
+              <a href="#" class="login">登陆</a>&nbsp;|&nbsp;<a
+                href="#"
+                class="register"
+                >注册</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="search">
+          <input type="text" />
+          <button><i class="iconfont search01">&#xe752;</i></button>
+        </div>
+        <div class="btn">
+          <i class="iconfont menu">&#xe600;</i>
+          <ul class="btn_list">
+            <li><a href="./index.html">首页</a></li>
+            <li><a href="./menu.html">菜谱</a></li>
+            <li><a href="./shopping.html">商城</a></li>
+            <li><a href="./node.html">笔记</a></li>
+            <li><a href="./contact us.html">联系我们</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 轮播图 -->
+    <div id="banner">
+      <img src="./images/煎饼果子.jpg" id="myPicture" />
+    </div>
+ 
+
+    <!-- 内容 -->
+    <div class="container01">
+      <h2>健康饮食</h2>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-top">
+            <img src="./images/banner1.jpg" />
+          </div>
+          <div class="box-bottom">
+            <ul>
+              <li>
+                <span></span><a href="#">降血压食物推荐，从日常开始改善！</a>
+              </li>
+              <li><span></span><a href="#">日常按摩这些部位，养生更养身</a></li>
+              <li><span></span><a href="#">脑溢血原因，冬天要更注意！</a></li>
+              <li>
+                <span></span><a href="#">孩子体质差总生病，父母该怎么办？</a>
+              </li>
+              <li>
+                <span></span><a href="#">专题┊快手早餐，营养满分の三明治</a>
+              </li>
+              <li><span></span><a href="#">专题┊那些美颜食物的神级吃法</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-top">
+            <img src="./images/banner2.jpg" />
+          </div>
+          <div class="box-bottom">
+            <ul>
+              <li><span></span><a href="#">不输猪油版的桃酥做法</a></li>
+              <li><span></span><a href="#">这些挑水果小窍门，你知道吗？</a></li>
+              <li><span></span><a href="#">内藏惊喜的彩虹戚风蛋糕</a></li>
+              <li><span></span><a href="#">消耗蛋挞皮－简单版红薯酥</a></li>
+              <li>
+                <span></span><a href="#">菜单┊油条华丽转身，也是蛮拼哒</a>
+              </li>
+              <li>
+                <span></span><a href="#">专题┊另类咸香口儿 满足你的味蕾！</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-top">
+            <img src="./images/banner3.jpg" />
+          </div>
+          <div class="box-bottom">
+            <ul>
+              <li><span></span><a href="#">合理饮食，远离脂肪肝</a></li>
+              <li><span></span><a href="#">划重点！食物降血脂这些更有效</a></li>
+              <li><span></span><a href="#">粗粮细作：健康能量燕麦甜品</a></li>
+              <li>
+                <span></span><a href="#">妈妈派┊童趣童味，儿童创意餐点</a>
+              </li>
+              <li>
+                <span></span><a href="#">免费抽奖┊小熊伊万多功能切刨丝器</a>
+              </li>
+              <li><span></span><a href="#">专题┊酒后头痛，5种食物可缓解</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container02">
+      <h2>精华日志</h2>
+      <div class="item-box">
+        <div class="item">
+          <div class="item-img">
+            <img src="./images/鸡胸肉披萨.jpg" />
+          </div>
+          <span>鸡胸肉披萨</span>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="./images/韭菜盒子.jpg" />
+          </div>
+          <span>韭菜盒子</span>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="./images/芝士面包虾.jpg" />
+          </div>
+          <span>芝士面包虾</span>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="./images/也子脆片.jpg" />
+          </div>
+          <span>也子脆片</span>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="./images/小龙虾拌面.jpg" />
+          </div>
+          <span>小龙虾拌面</span>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="./images/香辣小龙虾.jpg" />
+          </div>
+          <span>香辣小龙虾</span>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="./images/菠萝咕唠肉.jpg" />
+          </div>
+          <span>菠萝咕唠肉</span>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="./images/蟹黄鸡小火锅.jpg" />
+          </div>
+          <span>蟹黄鸡小火锅</span>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="./images/麻辣烫.jpg" />
+          </div>
+          <span>麻辣烫</span>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="./images/花卷.jpg" />
+          </div>
+          <span>花卷</span>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="./images/辣椒炒肉.jpg" />
+          </div>
+          <span>辣椒炒肉</span>
+        </div>
+        <div class="item">
+          <div class="item-img">
+            <img src="./images/水煮牛肉.jpg" />
+          </div>
+          <span>水煮牛肉</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-main">
+        <div class="footer-left">
+          <h3>美食天下-让吃更美好！</h3>
+          <p>
+            关于我们 · 联系我们 · 加入我们 · 服务声明 · 友情链接 · 网站地图 ·
+            移动应用
+          </p>
+          <p>
+            友情链接：愉悦妈妈自游乐爱奇艺生活中华美食网太平洋亲子网红餐网妈妈网亲宝网中国地图民福康健康波奇网企业服务平台餐饮杰
+          </p>
+          <p>
+            版权所有 © 2004-2022 美食天下 保留所有权利 - 京公网安备
+            11010502031041号 / 京ICP证090244号 / 京ICP备10020153号
+          </p>
+        </div>
+        <div class="footer-right">
+          <img src="./images/footer.png" />
+        </div>
+      </div>
+    </div>
+    <script src="./js/carousel.js"></script>
+  </body>
+</html>
